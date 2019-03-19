@@ -1,0 +1,3 @@
+spark-submit --class org..spark.bitcoin.example.SparkScalaBitcoinBlockCounter 
+--master local[8] ./target/scala-2.10/example-hcl-spark-scala-bitcoinblock.jar /user/bitcoin/input /user/bitcoin/output
+
